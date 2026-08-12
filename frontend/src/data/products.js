@@ -1,0 +1,48 @@
+const products = [
+  {
+    id: 1,
+    name: "Tomatoes",
+    category: "Vegetables",
+    buyingPrice: 40,
+    sellingPrice: 60,
+    quantity: 120,
+    unit: "Kg",
+    supplier: "Fresh Farm",
+    status: "In Stock",
+  },
+  {
+    id: 2,
+    name: "Onions",
+    category: "Vegetables",
+    buyingPrice: 50,
+    sellingPrice: 80,
+    quantity: 60,
+    unit: "Kg",
+    supplier: "Meru Farmers",
+    status: "In Stock",
+  },
+  {
+    id: 3,
+    name: "Cooking Oil",
+    category: "Groceries",
+    buyingPrice: 210,
+    sellingPrice: 250,
+    quantity: 5,
+    unit: "Bottle",
+    supplier: "Bidco",
+    status: "Low Stock",
+  },
+  {
+    id: 4,
+    name: "Sugar",
+    category: "Groceries",
+    buyingPrice: 130,
+    sellingPrice: 160,
+    quantity: 2,
+    unit: "Kg",
+    supplier: "Mumias",
+    status: "Low Stock",
+  },
+];
+
+export default products;
